@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase2 - jogo</title>
+
+    <style>
+
+      .centralizar
+      {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .mapa
+      {
+        font-size: 12px;
+        width: 300px;
+        color: #FFDD5C;
+      }
+
+      body
+      {
+        background-color: #4b1c2e;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto Mono', monospace;
+        text-align: center;
+      }
+
+      button
+      {
+        border: none;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto Mono', monospace;
+        border-radius: 5px;
+        color: #4b1c2e;
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        background-color: #FFDD5C;
+        margin-bottom: 20px;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover
+      {
+        background-color: #dd9f50;
+      }
+
+      a
+      {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a:hover
+      {
+        text-decoration: underline;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="centralizar">
+
+      <table id="map" class="mapa"></table>
+        
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <button><a href="Sair.html">Sair do jogo!</a></button>
+
+    </div>
+
+  </body>
+
+</html>
+
+<script src="Fase2.js"></script>
